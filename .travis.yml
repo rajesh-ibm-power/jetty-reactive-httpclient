@@ -12,6 +12,6 @@ arch:
 addons:
   apt:
     packages:
-     - maven
+     - maven 3.5.0
 script:
      - mvn test
